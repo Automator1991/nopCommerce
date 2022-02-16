@@ -106,7 +106,7 @@ public class Stepdef extends BaseClass {
 
 	@Then("close browser")
 	public void close_browser() {
-		logger.info("************* cloding browser -added comment *****************");
+		logger.info("************* cloding browser *****************");
 		driver.quit();
 	}
 
